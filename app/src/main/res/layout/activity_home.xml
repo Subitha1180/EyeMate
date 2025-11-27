@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <!-- TOP IMAGE (Horizontal Banner) -->
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/mans_logo"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- CAMERA BUTTON -->
+    <LinearLayout
+        android:id="@+id/cameraButton"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_box"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/camara_logo"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- OCR BUTTON -->
+    <LinearLayout
+        android:id="@+id/ocrButton"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_box"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ocr_logo"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Reader (OCR)"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="“See beyond sight with EyeMate.”"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#2470ED"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10dp" />
+
+
+</LinearLayout>

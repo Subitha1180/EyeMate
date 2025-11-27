@@ -1,0 +1,9 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">EyeMate</string>
+
+    <!-- Camera error message -->
+    <string name="tfe_od_camera_error">
+        This device doesn\'t support Camera2 API.
+    </string>
+</resources>
