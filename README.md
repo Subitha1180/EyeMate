@@ -1,6 +1,6 @@
-# Shravan: Visually Impaired Guidance Application
+# EyeMate: Visually Impaired Guidance Application
 
-Shravan is an Android application that aims to provide guidance and assistance to visually impaired individuals. It leverages object detection using TensorFlow Lite to help users detect objects in their surroundings.
+EyeMate is an Android application that aims to provide guidance and assistance to visually impaired individuals. It leverages object detection using TensorFlow Lite to help users detect objects in their surroundings.
 
 ## Features
 <!-- Add bullet points -->
@@ -20,7 +20,7 @@ Shravan is an Android application that aims to provide guidance and assistance t
 1. Clone the repository to your local machine.
 
 ```shell
-git clone https://github.com/ssharmapavitra/Shravan.git
+git clone https://github.com/Subitha1180/EyeMate.git
 ```
 
 2. Open the project in Android Studio.
@@ -29,7 +29,7 @@ git clone https://github.com/ssharmapavitra/Shravan.git
 
 ## Usage
 
-Once you have the Shravan application running on your Android device or emulator, it assists visually impaired individuals in detecting objects in their surroundings. The application provides a user-friendly interface for selecting images or accessing the device's camera.
+Once you have the EyeMate application running on your Android device or emulator, it assists visually impaired individuals in detecting objects in their surroundings. The application provides a user-friendly interface for selecting images or accessing the device's camera.
 
 1. Launch the app on your Android device.
 
@@ -43,11 +43,11 @@ Once you have the Shravan application running on your Android device or emulator
 
 4. Customize the object detection settings using the provided options in the app. You can adjust the sensitivity, enable or disable audio feedback, and explore other configuration options to enhance the user experience.
 
-5. Enjoy real-time voice output and assistance as you use the Sharvan app to read text or detect objects around you.
+5. Enjoy real-time voice output and assistance as you use the EyeMate app to read text or detect objects around you.
 
 Feel free to explore the features and functionalities of the app to provide a seamless and enhanced experience for visually impaired users.
 
-Note: The Shravan app does not require an internet connection for its core functionality. All processing and voice output are done locally on your Android device, ensuring privacy and reliable performance.
+Note: The EyeMate app does not require an internet connection for its core functionality. All processing and voice output are done locally on your Android device, ensuring privacy and reliable performance.
 
 ## Customization
 
@@ -55,11 +55,11 @@ If you wish to use your own models for object detection, you can replace the def
 
 ## Contributing
 
-Contributions to the Shravan project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions to the EyeMate project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## Acknowledgments
 
-The Shravan application is built upon the TensorFlow Lite examples and incorporates various open-source libraries and resources.
+The EyeMate application is built upon the TensorFlow Lite examples and incorporates various open-source libraries and resources.
 
 Feel free to customize and enhance the application based on your requirements.
 
